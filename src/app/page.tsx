@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 export default function Home() {
 
   return (
-    <div className="h-screen w-screen flex flex-col items-center relative scr overflow-hidden">
+    <div className="h-screen w-screen flex flex-col items-center relative overflow-hidden">
       <div className="flex justify-center gap-6 items-center absolute w-full text-black bg-orange-300 h-20 ">
           <Icon icon="iconoir:bell" className='text-2xl'/>
           <span className="font-roboto font-medium text-lg">Suas rotas foram atualizadas</span>
