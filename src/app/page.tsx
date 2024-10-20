@@ -155,7 +155,7 @@ export default function Home() {
             </div>
 
 
-            <div className={`flex items-center justify-between -m-4 p-2 ${isDeliveryHistoryOpen == false && isMenuOpen == true && `hidden`}`} >
+            <div className={`flex items-center justify-between -m-4 p-2 ${isDeliveryHistoryOpen == false && `hidden`}`} >
               <div className='flex items-center gap-2 '>
                 <Icon 
                   icon="iconoir:bell" 
